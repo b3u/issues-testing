@@ -9,9 +9,9 @@ jobs:
       - name: Lock Issue
         uses: OSDKDev/lock-issues@v1.1
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+          repo-token: ${{secrets.TOKEN}}
       - name: Auto-respond
         uses: kyoncy/issue-comment-actions@v1
         with:
-          token: ${{secrets.GITHUB_TOKEN}}
+          token: ${{github.token}}
           message: 'Go to Jira! Now, now, now.'
