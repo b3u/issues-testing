@@ -4,5 +4,4 @@ contact_links:
     url: https://tickets.metabrainz.org/projects/BB
     about: Please open bugs here.
   - name: IRC
-    url: https://bounty.github.com/
     about: "Discussion happens in #bookbrainz on IRC"
