@@ -4,4 +4,5 @@ contact_links:
     url: https://tickets.metabrainz.org/projects/BB
     about: Please open bugs here.
   - name: IRC
+    url: https://webchat.freenode.net/?channels=#bookbrainz
     about: "Discussion happens in #bookbrainz on IRC"
