@@ -1,0 +1,17 @@
+name: Greetings
+
+on: [issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lock Issue
+        uses: OSDKDev/lock-issues@v1.1
+        with:
+          repo-token: ${{secrets.GITHUB_TOKEN}}
+      - name: Auto-respond
+        uses: kyoncy/issue-comment-actions@v1
+        with:
+          token: ${{secrets.GITHUB_TOKEN}}
+          message: 'Go to Jira! Now, now, now.'
